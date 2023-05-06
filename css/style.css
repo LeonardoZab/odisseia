@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(226,198,162);
+}
+
+/* css do cabecario */
+
+header{
+    background-color: rgba(8,8,32,255);
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav li{
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.paginas{
+    width: 1126px;
+    display: flex;
+    margin-right: 15px;
+    margin-top: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+.paginas a{
+    text-decoration: none;
+    color: rgba(241,94,96,255);
+}
+
+.paginas a:hover{
+    font-size: 1.6rem;
+    color: rgb(170,68,83);
+    transition: 1s;
+    cursor:pointer;
+}
+
+/*css drop1 */
+.paginas li .drop1 li{
+    display: block;
+}
+
+.paginas li .drop1{
+    width: 135px;
+    background: rgba(8,8,32,255);
+    position: absolute;
+    z-index: 999;
+    display: none;
+    text-decoration: underline ;
+    text-decoration-color: rgb(170,68,83);
+    text-align: center;
+}
+
+.paginas li:hover .drop1{
+    display: block;
+}
+
+/*css drop2 */
+.paginas li .drop2 li{
+    display: block;
+}
+
+.paginas li .drop2{
+    width: 145px;
+    background: rgba(8,8,32,255);
+    position: absolute;
+    z-index: 999;
+    display: none;
+    text-decoration: underline ;
+    text-decoration-color: rgb(170,68,83);
+    text-align: center;
+}
+
+.paginas li:hover .drop2{
+    display: block;
+}
+
+/*css drop3 */
+.paginas li .drop3 li{
+    display: block;
+}
+
+.paginas li .drop3{
+    width: 175px;
+    background: rgba(8,8,32,255);
+    position: absolute;
+    z-index: 999;
+    display: none;
+    text-decoration: underline ;
+    text-decoration-color: rgb(170,68,83);
+    text-align: center;
+}
+
+.paginas li:hover .drop3{
+    display: block;
+}
+
+/* css do fpoter */
+
+footer{
+    background-color: rgba(8,8,32,255);
+    margin-top: 35px;
+}
+
+.rodape{
+    margin-top: 35px;
+    color: rgb(170,68,83);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

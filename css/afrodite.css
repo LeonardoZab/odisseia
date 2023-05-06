@@ -1,0 +1,136 @@
+h1{
+    margin-top: 10px;
+    color: rgb(130, 73, 34);
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: rgb(193, 115, 64);
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    color: black;
+    font-size: 15px;
+}
+
+h5{
+    font-style: italic;
+    color: grey;
+    font-size: 13px;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+h6{
+    color: rgb(193, 115, 64);
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p a{
+    color: rgb(193, 115, 64);
+    text-decoration: none;
+}
+
+.p2{
+    margin-left: 15px;
+}
+
+hr {
+    color: rgba(8,8,32,255);
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+/* apresentação 1 */
+
+.apresentacao{
+    display: flex;
+    flex-direction:row-reverse;
+    list-style: none;
+    margin: 0 10px;
+    text-align: left;
+}
+
+
+.borda{
+    border: black;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.linha_apresentacao{
+    height: 305px;
+    width: 275px;
+    margin-top: 5px;
+}
+
+/* apresentação 2 */
+
+.apresentacao2{
+    display: flex;
+    flex-direction:row-reverse;
+    margin: 0 10px;
+    text-align: left;
+}
+
+
+.borda2{
+    border: black;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.linha_apresentacao2{
+    height: 305px;
+    width: 275px;
+    margin-top: 5px;
+}
+
+/* apresentação 3 */
+
+.apresentacao3{
+    margin: 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+}
+
+
+.borda3{
+    border: black;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.linha_apresentacao3{
+    height: 305px;
+    width: 1075px;
+}
