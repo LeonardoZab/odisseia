@@ -13,54 +13,79 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h4{
-    color: black;
-    font-size: 15px;
-}
-
-h5{
-    font-style: italic;
-    color: grey;
-    font-size: 13px;
-    margin-top: 19px;
-    margin-left: 15px;
-}
-
-h6{
-    color: rgb(193, 115, 64);
+h3{
     text-align: center;
-    font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-p{
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-p a{
-    color: rgb(193, 115, 64);
-    text-decoration: none;
-}
-
-.p2{
-    margin-left: 15px;
-}
-
-hr {
-    color: rgba(8,8,32,255);
-    display: block;
-    margin-top: 5px;
     margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 3px;
 }
 
-/* apresentação 1 */
+h3 a{
+    text-decoration: none;
+    color: rgb(130, 73, 34);
+}
+
+.geral{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 30px;
+}
+
+.bordas{
+    border: rgba(170,143,132,255);
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+/* linha 1 */
+
+.linha1{
+    height: 175px;
+    width: 175px;
+    align-items: center;
+    text-align: center;
+}
+
+.linha1:hover{
+    font-size: 1.3rem;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+/* linha 2 */
+
+.linha2{
+    height: 175px;
+    width: 175px;
+    align-items: center;
+    text-align: center;
+}
+
+.linha2:hover{
+    font-size: 1.3rem;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+/* linha 3 */
+
+.linha3{
+    height: 175px;
+    width: 175px;
+    align-items: center;
+    text-align: center;
+}
+
+.linha3:hover{
+    font-size: 1.3rem;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+/* apresentação */
 
 .apresentacao{
     display: flex;
@@ -86,51 +111,29 @@ hr {
     margin-top: 5px;
 }
 
-/* apresentação 2 */
-
-.apresentacao2{
-    display: flex;
-    flex-direction:row-reverse;
-    margin: 0 10px;
-    text-align: left;
+p{
+    margin-left: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.p2{
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-.borda2{
+.notas{
     border: black;
-    text-align: center;
-    border-width: 3px;
+    border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    padding: 12px;
+    padding: 8px;
 }
 
-.linha_apresentacao2{
-    height: 305px;
-    width: 275px;
-    margin-top: 5px;
+.lista{
+    margin-left: 15px;
 }
 
-/* apresentação 3 */
-
-.apresentacao3{
-    margin: 0 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: left;
-}
-
-
-.borda3{
-    border: black;
-    text-align: center;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 10px;
-    padding: 12px;
-}
-
-.linha_apresentacao3{
-    height: 305px;
-    width: 1075px;
+.lista a{
+    text-decoration: none;
+    color: rgb(130, 73, 34);
 }
